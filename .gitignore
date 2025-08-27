@@ -1,0 +1,54 @@
+# N8N and workflow automation specific
+*.log
+logs/
+.n8n/
+
+# Workflow credentials and secrets
+credentials.json
+**/credentials/
+**/*-credentials-*.json
+**/*-secrets-*.json
+
+# Environment variables
+.env
+.env.*
+
+# Node modules
+node_modules/
+
+# Python virtual environments
+venv/
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+._*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+temp/
+
+# Backup files
+*.bak
+*.backup
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Wiki submodule (ignore local changes)
+wiki/*
+!wiki/.gitkeep
+
+# Wiki submodule - ignore local changes
+wiki/*
+!wiki/.gitkeep
